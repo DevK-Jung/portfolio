@@ -160,14 +160,14 @@
   <div class="filter-row">
     <button class="f-btn active" onclick="fp('all',this)">All (13)</button>
     <button class="f-btn" onclick="fp('ai',this)">AI Agent (3)</button>
-    <button class="f-btn" onclick="fp('data',this)">AI · Data (2)</button>
     <button class="f-btn" onclick="fp('be',this)">Backend (8)</button>
+    <button class="f-btn" onclick="fp('blockchain',this)">Blockchain (6)</button>
   </div>
 
   <div class="proj-grid">
 
     <!-- P01 HK Innon -->
-    <div class="proj-card" data-type="ai">
+    <div class="proj-card" data-type="ai be">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">HK Innon</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -175,7 +175,10 @@
         </div>
         <div class="proj-period">2025.09 – 2026.01</div>
       </div>
-      <div class="badge badge-ai">AI Agent</div>
+      <div class="badge-row">
+        <div class="badge badge-ai">AI Agent</div>
+        <div class="badge badge-be">Backend</div>
+      </div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">RAG 기반 문서 검색 및 Ask-back 로직 적용으로 할루시네이션 방지 및 답변 정확도 개선</div>
       <div class="role-block">
@@ -188,7 +191,7 @@
     </div>
 
     <!-- P02 AIDA ROOT AI -->
-    <div class="proj-card" data-type="ai">
+    <div class="proj-card" data-type="ai be">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">AIDA ROOT 사내</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -196,7 +199,10 @@
         </div>
         <div class="proj-period">2025.03 – 2025.09</div>
       </div>
-      <div class="badge badge-ai">AI Agent</div>
+      <div class="badge-row">
+        <div class="badge badge-ai">AI Agent</div>
+        <div class="badge badge-be">Backend</div>
+      </div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">AI Agent·백엔드·인프라 전체 시스템 설계 및 구현</div>
       <div class="role-block">
@@ -209,7 +215,7 @@
     </div>
 
     <!-- P03 현대오토에버 탄소 -->
-    <div class="proj-card" data-type="be">
+    <div class="proj-card" data-type="be blockchain">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">현대 오토에버</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -217,7 +223,7 @@
         </div>
         <div class="proj-period">2024.03 – 2025.02</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-blockchain">Blockchain</div><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">Spring Boot 멀티 모듈 아키텍처 설계 주도로 3개 시스템 공통 구조 확립 및 코드 재사용성 극대화</div>
       <div class="role-block">
@@ -230,7 +236,7 @@
     </div>
 
     <!-- P04 eNetZero -->
-    <div class="proj-card" data-type="be">
+    <div class="proj-card" data-type="be blockchain">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">AIDA ROOT</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -238,7 +244,7 @@
         </div>
         <div class="proj-period">2023.11 – 2024.03</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-blockchain">Blockchain</div><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">백엔드 애플리케이션 초기 구성부터 핵심 비즈니스 로직 전담 구현</div>
       <div class="role-block">
@@ -259,7 +265,7 @@
         </div>
         <div class="proj-period">2023.09 – 2023.11</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">공무원 조직도 WebView 설계·구현 전반을 담당하며 정부 디렉터리 서비스·Native API 연동 완료</div>
       <div class="role-block">
@@ -272,7 +278,7 @@
     </div>
 
     <!-- P06 NH농협 -->
-    <div class="proj-card" data-type="be">
+    <div class="proj-card" data-type="be blockchain">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">NH농협</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -280,7 +286,7 @@
         </div>
         <div class="proj-period">2023.06 – 2023.09</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-blockchain">Blockchain</div><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">WebView 시스템 설계·구현 전반을 담당하며 인증 로직 및 블록체인 API 연동 주도</div>
       <div class="role-block">
@@ -293,7 +299,7 @@
     </div>
 
     <!-- P07 현대오토에버 협력사 -->
-    <div class="proj-card" data-type="be">
+    <div class="proj-card" data-type="be blockchain">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">현대오토에버</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -301,7 +307,7 @@
         </div>
         <div class="proj-period">2023.03 – 2023.06</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-blockchain">Blockchain</div><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">Hedera Blockchain 탄소 배출 기록·검증 로직 설계 주도 및 Spring Cache 적용으로 조회 성능 향상</div>
       <div class="role-block">
@@ -314,7 +320,7 @@
     </div>
 
     <!-- P08 KB국민은행 -->
-    <div class="proj-card" data-type="be">
+    <div class="proj-card" data-type="be blockchain">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">KB국민은행</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -322,7 +328,7 @@
         </div>
         <div class="proj-period">2022.11 – 2023.02</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-blockchain">Blockchain</div><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">학생 증명서·학생증 NFT 메뉴 전담 개발 및 MonaRest API 연동으로 디지털 자산 발행 시스템 구현</div>
       <div class="role-block">
@@ -335,7 +341,7 @@
     </div>
 
     <!-- P09 LG CNS -->
-    <div class="proj-card" data-type="be">
+    <div class="proj-card" data-type="be blockchain">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">LG CNS</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -343,7 +349,7 @@
         </div>
         <div class="proj-period">2022.07 – 2022.11</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-blockchain">Blockchain</div><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">Private·Public Blockchain 연동 및 스마트 컨트랙트 배포로 OpenSea NFT 노출까지 End-to-End PoC 구현</div>
       <div class="role-block">
@@ -364,7 +370,7 @@
         </div>
         <div class="proj-period">2022.05 – 2022.07</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">제품 비교 분석 플랫폼 구축 및 XSS·SQL Injection 보안 취약점 대응으로 시스템 보안성 강화</div>
       <div class="role-block">
@@ -385,7 +391,7 @@
         </div>
         <div class="proj-period">2022.02 – 2022.05</div>
       </div>
-      <div class="badge badge-be">Backend</div>
+      <div class="badge-row"><div class="badge badge-be">Backend</div></div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">중고차 도매·소매·매입 산출가 알고리즘 기반 REST API 설계 및 구축</div>
       <div class="role-block">
@@ -398,7 +404,7 @@
     </div>
 
     <!-- P12 CJ제일제당 -->
-    <div class="proj-card" data-type="data">
+    <div class="proj-card" data-type="data be">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">CJ제일제당</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -406,7 +412,9 @@
         </div>
         <div class="proj-period">2021.11 – 2022.01</div>
       </div>
-      <div class="badge badge-data">AI · Data</div>
+      <div class="badge-row">
+        <div class="badge badge-be">Backend</div>
+      </div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">Elasticsearch 기반 검색 포털 구축 및 분석 과제 등록·조회 시스템 구현</div>
       <div class="role-block">
@@ -419,7 +427,7 @@
     </div>
 
     <!-- P13 기상청 -->
-    <div class="proj-card" data-type="data">
+    <div class="proj-card" data-type="data be">
       <div class="proj-header">
         <div>
           <div class="proj-client-row"><span class="proj-client-main">기상청</span><span class="proj-client-sub">/ 에이다루트</span></div>
@@ -427,7 +435,9 @@
         </div>
         <div class="proj-period">2021.05 – 2021.10</div>
       </div>
-      <div class="badge badge-data">AI · Data</div>
+      <div class="badge-row">
+        <div class="badge badge-be">Backend</div>
+      </div>
       <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
       <div class="achieve-line">기상기후 빅데이터 알고리즘 산출값 Confusion Matrix 시각화 구현</div>
       <div class="role-block">
@@ -570,9 +580,31 @@ function fp(type,btn){
   document.querySelectorAll('.f-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   document.querySelectorAll('.proj-card').forEach(c=>{
-    c.classList.toggle('hidden',type!=='all'&&c.dataset.type!==type);
+    c.classList.toggle('hidden',type!=='all'&&!c.dataset.type.split(' ').includes(type));
   });
 }
+document.addEventListener('DOMContentLoaded',()=>{
+  const cards = document.querySelectorAll('.proj-card');
+  const total = cards.length;
+
+  // nav 카운트 업데이트
+  document.querySelector('.nav-count').textContent = total;
+
+  // 필터 버튼 카운트 업데이트
+  const counts = {};
+  cards.forEach(c=>{
+    c.dataset.type.split(' ').forEach(t=>{
+      counts[t] = (counts[t]||0) + 1;
+    });
+  });
+  document.querySelectorAll('.f-btn').forEach(btn=>{
+    const match = btn.getAttribute('onclick').match(/fp\('(\w+)'/);
+    if(!match) return;
+    const type = match[1];
+    const n = type==='all' ? total : (counts[type]||0);
+    btn.textContent = btn.textContent.replace(/\s*\(\d+\)/, '') + ` (${n})`;
+  });
+});
 </script>
 </body>
 </html>
