@@ -11,6 +11,17 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="icon-github" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.745 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+  </symbol>
+  <symbol id="icon-email" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+    <path stroke-linecap="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/>
+  </symbol>
+  <symbol id="icon-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"/>
+  </symbol>
+</svg>
 <div class="layout">
 
 <!-- ══ SIDEBAR ══ -->
@@ -40,11 +51,11 @@
 
   <div class="sidebar-footer">
     <a class="contact-link" href="https://github.com/DevK-Jung" target="_blank">
-      <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.745 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+      <svg viewBox="0 0 24 24"><use href="#icon-github"/></svg>
       github.com/DevK-Jung
     </a>
     <a class="contact-link" href="mailto:dnrdmrdkr@gmail.com">
-      <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+      <svg viewBox="0 0 24 24"><use href="#icon-email"/></svg>
       dnrdmrdkr@gmail.com
     </a>
   </div>
@@ -165,6 +176,37 @@
   </div>
 
   <div class="proj-grid">
+    <!-- P00 개인 프로젝트 -->
+    <div class="proj-card" data-type="ai be">
+      <div class="proj-header">
+        <div>
+          <div class="proj-client-row"><span class="proj-client-main">개인 프로젝트</span><span class="proj-client-sub">/ GitHub</span></div>
+          <div class="proj-name">AI 사주 오라클</div>
+        </div>
+        <div class="proj-period">2026.04 –</div>
+      </div>
+      <div class="badge-row">
+        <div class="badge badge-ai">AI Agent</div>
+        <div class="badge badge-be">Backend</div>
+      </div>
+      <div class="proj-desc">사주팔자를 AI가 분석해 오라클 캐릭터 '설아'가 운명의 흐름을 이야기하는 풀스택 AI 애플리케이션</div>
+      <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem">주요 성과</div>
+      <div class="achieve-line">pyswisseph 기반 고정밀 절기 계산 + pgvector HNSW 하이브리드 RAG로 사주 해석 정확도 향상</div>
+      <div class="role-block">
+        <div class="role-label">역할</div>
+        <div class="r-item">LangGraph 기반 사주 분석 워크플로우 설계 및 SSE 스트리밍 API 구현</div>
+        <div class="r-item">pgvector HNSW + 하이브리드 검색 RAG 파이프라인 구축</div>
+        <div class="r-item">React·TypeScript 기반 9개 화면 프론트엔드 및 Docker Compose 인프라 구성</div>
+      </div>
+      <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem">관련 링크</div>
+      <div class="proj-links">
+        <a class="proj-link" href="https://github.com/DevK-Jung/proj-saju" target="_blank">
+          <svg viewBox="0 0 24 24"><use href="#icon-github"/></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="tech-row"><span class="tech">Python</span><span class="tech">FastAPI</span><span class="tech">LangGraph</span><span class="tech">OpenAI GPT-4o</span><span class="tech">pgvector</span><span class="tech">PostgreSQL</span><span class="tech">React</span><span class="tech">TypeScript</span><span class="tech">Tailwind CSS</span><span class="tech">Docker</span></div>
+    </div>
 
     <!-- P01 HK Innon -->
     <div class="proj-card" data-type="ai be">
@@ -188,6 +230,7 @@
         <div class="r-item">Airflow 기반 데이터 파이프라인 기능 개선 및 데이터 구조 확장</div>
         <div class="r-item">Docker·GitHub Actions 기반 컨테이너 배포 자동화 환경 구성</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Python</span><span class="tech">Spring Boot</span><span class="tech">FastAPI</span><span class="tech">Airflow</span><span class="tech">LangGraph</span><span class="tech">OpenAI</span><span class="tech">PostgreSQL</span><span class="tech">PGVector</span><span class="tech">Redis</span><span class="tech">Parquet</span><span class="tech">DuckDB</span><span class="tech">Docker</span><span class="tech">GitHub Actions</span></div>
     </div>
 
@@ -213,6 +256,13 @@
         <div class="r-item">Whisper 기반 STT 파이프라인 및 회의록 작성 Agent 구현</div>
         <div class="r-item">Dify·Flowise 활용 노코드/로우코드 Agent 템플릿 구성</div>
       </div>
+      <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem">관련 링크</div>
+      <div class="proj-links">
+        <a class="proj-link" href="https://www.aidaroot.com/kor/products/axdx" target="_blank">
+          <svg viewBox="0 0 24 24"><use href="#icon-link"/></svg>
+          AXDX 제품 페이지
+        </a>
+      </div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Python</span><span class="tech">Spring Boot</span><span class="tech">FastAPI</span><span class="tech">LangChain</span><span class="tech">Ollama</span><span class="tech">Whisper</span><span class="tech">FAISS</span><span class="tech">MySQL</span><span class="tech">Redis</span><span class="tech">Dify</span><span class="tech">Flowise</span><span class="tech">Docker</span><span class="tech">GitLab CI/CD</span></div>
     </div>
 
@@ -234,6 +284,13 @@
         <div class="r-item">Spring Boot 멀티 모듈 기반 시스템 아키텍처 설계 주도 및 공통 모듈 구조 정립</div>
         <div class="r-item">Hedera Blockchain SDK 연동 및 탄소 배출 데이터 무결성 검증 구조 구현</div>
         <div class="r-item">Spring Batch·Quartz 기반 탄소 배출 데이터 수집 자동화 스케줄러 구현</div>
+      </div>
+      <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem">관련 링크</div>
+      <div class="proj-links">
+        <a class="proj-link" href="https://www.ksilbo.co.kr/news/articleView.html?idxno=1017306" target="_blank">
+          <svg viewBox="0 0 24 24"><use href="#icon-link"/></svg>
+          관련 기사
+        </a>
       </div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">Spring Batch</span><span class="tech">Spring Security</span><span class="tech">MariaDB</span><span class="tech">MyBatis</span><span class="tech">Hedera Blockchain SDK</span><span class="tech">Git</span><span class="tech">Jira</span></div>
     </div>
@@ -257,6 +314,13 @@
         <div class="r-item">Hedera Blockchain 연동을 통한 데이터 무결성 확보</div>
         <div class="r-item">Spring Security·JWT 인증 시스템 구축 및 Azure 클라우드 배포 환경 구성</div>
       </div>
+      <div class="achieve-label" style="font-family:var(--font-mono);font-size:9px;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem">관련 링크</div>
+      <div class="proj-links">
+        <a class="proj-link" href="https://www.etnews.com/20240308000034" target="_blank">
+          <svg viewBox="0 0 24 24"><use href="#icon-link"/></svg>
+          관련 기사
+        </a>
+      </div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">MySQL</span><span class="tech">JPA</span><span class="tech">Spring Security</span><span class="tech">Hedera Blockchain</span><span class="tech">Azure</span><span class="tech">Git</span><span class="tech">Jira</span></div>
     </div>
 
@@ -279,6 +343,7 @@
         <div class="r-item">정부 디렉터리 서비스 LDAP API 연동으로 기관·직원 정보 통합 조회 구현</div>
         <div class="r-item">Native 앱 API 연동</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">전자정부프레임워크</span><span class="tech">Oracle</span><span class="tech">MyBatis</span><span class="tech">LDAP</span><span class="tech">SVN</span></div>
     </div>
 
@@ -301,6 +366,7 @@
         <div class="r-item">SSO 서버 연동 및 JWT 기반 인증 관리 구현</div>
         <div class="r-item">관리자 페이지 개발 — 지갑 생성·NFT 발행 이력 조회 기능 구현</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">Thymeleaf</span><span class="tech">Oracle</span><span class="tech">MyBatis</span><span class="tech">MonaRest</span><span class="tech">FeignClient</span><span class="tech">Git</span></div>
     </div>
 
@@ -323,6 +389,7 @@
         <div class="r-item">Hedera Blockchain 연동으로 탄소 배출 데이터 무결성 확보</div>
         <div class="r-item">HMG SSO·JWT 인증 구현 및 Spring Cache 캐시 어사이드 전략 적용</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">Spring Security</span><span class="tech">MariaDB</span><span class="tech">MyBatis</span><span class="tech">Hedera Blockchain SDK</span><span class="tech">S3</span><span class="tech">Git</span></div>
     </div>
 
@@ -345,6 +412,7 @@
         <div class="r-item">S3 연동을 통한 NFT 및 관련 데이터 저장·관리</div>
         <div class="r-item">관리자 페이지 개발 — NFT 발행·지갑 생성 이력 조회 기능 구현</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">Thymeleaf</span><span class="tech">Oracle</span><span class="tech">MyBatis</span><span class="tech">MonaRest</span><span class="tech">S3</span><span class="tech">Git</span></div>
     </div>
 
@@ -367,6 +435,7 @@
         <div class="r-item">Truffle·OpenZeppelin 기반 ERC-721 스마트 컨트랙트 개발 및 Mumbai 네트워크 배포</div>
         <div class="r-item">KAS(Klaytn API Service) 연동 및 web3j를 통한 컨트랙트 통신 구현</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Solidity</span><span class="tech">Spring Boot</span><span class="tech">Truffle</span><span class="tech">MySQL</span><span class="tech">MyBatis</span><span class="tech">MonaRest</span><span class="tech">KAS</span><span class="tech">web3j</span><span class="tech">Git</span></div>
     </div>
 
@@ -389,6 +458,7 @@
         <div class="r-item">XSS·SQL Injection 보안 취약점 조치</div>
         <div class="r-item">SessionListener 기반 중복 로그인 방지 기능 구현</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Framework</span><span class="tech">JSP</span><span class="tech">MySQL</span><span class="tech">MyBatis</span><span class="tech">Git</span></div>
     </div>
 
@@ -411,6 +481,7 @@
         <div class="r-item">RestTemplate을 통한 외부 산출가 조회 API 연동</div>
         <div class="r-item">SSO 연동을 통한 인증 및 보안 강화</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">Tibero</span><span class="tech">MyBatis</span><span class="tech">RestTemplate</span><span class="tech">Git</span></div>
     </div>
 
@@ -435,6 +506,7 @@
         <div class="r-item">Elasticsearch 연동 검색 기능 구현</div>
         <div class="r-item">분석 과제 등록 및 화면 출력 기능 구현</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">Spring Boot</span><span class="tech">MySQL</span><span class="tech">MyBatis</span><span class="tech">Elasticsearch</span><span class="tech">jQuery</span><span class="tech">Git</span></div>
     </div>
 
@@ -459,6 +531,7 @@
         <div class="r-item">JSP 기반 게시판 기능 개발</div>
         <div class="r-item">전자정부프레임워크 기반 백엔드 API 개발</div>
       </div>
+      <div class="proj-links"></div>
       <div class="tech-row"><span class="tech">Java</span><span class="tech">전자정부프레임워크</span><span class="tech">Oracle</span><span class="tech">MyBatis</span><span class="tech">JSP</span><span class="tech">jQuery</span><span class="tech">JavaScript</span><span class="tech">SVN</span></div>
     </div>
 
@@ -551,11 +624,11 @@
 
   <div class="contact-grid">
     <a class="contact-card" href="mailto:dnrdmrdkr@gmail.com">
-      <div class="cc-icon"><svg fill="none" viewBox="0 0 24 24" stroke="var(--accent)" stroke-width="1.5"><path stroke-linecap="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg></div>
+      <div class="cc-icon"><svg viewBox="0 0 24 24" style="stroke:var(--accent)"><use href="#icon-email"/></svg></div>
       <div><div class="cc-label">Email</div><div class="cc-val">dnrdmrdkr@gmail.com</div></div>
     </a>
     <a class="contact-card" href="https://github.com/DevK-Jung" target="_blank">
-      <div class="cc-icon"><svg fill="var(--accent)" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.745 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg></div>
+      <div class="cc-icon"><svg viewBox="0 0 24 24" style="fill:var(--accent)"><use href="#icon-github"/></svg></div>
       <div><div class="cc-label">GitHub</div><div class="cc-val">github.com/DevK-Jung</div></div>
     </a>
     <div class="contact-card" style="cursor:default">
