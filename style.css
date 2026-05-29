@@ -16,9 +16,9 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .sidebar{width:280px;min-width:280px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg) 100%);border-right:1px solid var(--border);padding:2rem 1.5rem;display:flex;flex-direction:column;gap:1.5rem;position:sticky;top:0;height:100vh;overflow-y:auto}
 
 .profile-photo-wrap{display:flex;justify-content:center;margin-bottom:.25rem}
-.profile-photo{width:88px;height:88px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid var(--border2);display:block}
-.status-dot{width:11px;height:11px;background:var(--green);border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 8px var(--green);animation:glow 2s ease-in-out infinite alternate;position:absolute;bottom:4px;right:calc(50% - 44px)}
-.profile-photo-inner{position:relative;width:88px;margin:0 auto}
+.profile-photo{width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid var(--border2);display:block}
+.status-dot{width:11px;height:11px;background:var(--green);border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 8px var(--green);animation:glow 2s ease-in-out infinite alternate;position:absolute;bottom:4px;right:calc(50% - 75px)}
+.profile-photo-inner{position:relative;width:150px;margin:0 auto}
 @keyframes glow{from{box-shadow:0 0 4px var(--green)}to{box-shadow:0 0 14px var(--green),0 0 22px var(--green)55}}
 
 .profile-info{text-align:center}
