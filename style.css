@@ -111,6 +111,9 @@ hr.rule{border:none;border-top:1px solid var(--border);margin:2rem 0}
 .badge-data{background:var(--purple-dim);color:var(--purple);border:1px solid var(--purple)30}
 .badge-blockchain{background:#fbbf2418;color:var(--amber);border:1px solid var(--amber)30}
 
+/* 프로젝트 소개 */
+.proj-desc{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:.85rem}
+
 /* 성과 한줄 */
 .achieve-line{
   display:flex;align-items:flex-start;gap:8px;
